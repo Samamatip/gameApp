@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: black; color: rgb(243, 93, 118); font-size: xx-large; 
+}
+.game2Header{
+    color: purple;
+}
+
+.gameInstruction{
+    background-color: white;  margin-left: 37.5%; border-radius: 30px; width: 25%;
+}
+.cardDisplay{
+    display: flex; list-style-type: none; width: 60%; margin-left: 20%; margin-right: 20%
+}
+.cardDisplay li{
+    margin:auto; 
+}
+.dareDisplay, .truthDisplay{
+    background-color: white; border-radius: 20px; width: 200px; height: 300px; margin:auto; 
+}
+.button6{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.button2{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+em{
+    color: red;
+}
+
+.buttonDisplay{
+    display: flex; margin-left: 20%; margin-right: 20%; margin-top: 8%;
+}
+.buttonDisplay li{
+    list-style-type: none; margin: auto;   
+}
+.dareButton{
+    background-color: red; padding: 40px; color: white; font-weight: bolder; border-radius: 20px;
+}
+.truthButton{
+    background-color: blue; padding: 40px; color: white; font-weight: bolder; border-radius: 20px;
+}
+.nextButton{
+    background-color: green; padding: 10px; color: white; font-weight: bolder; border-radius: 10px;
+}
+.startButton, .end{
+    color: white; background-color: purple; padding-left: 40px; padding-right: 40px; padding-top: 10px; padding-bottom: 10px; border-radius: 15px; font-size: large;
+}
+.endButton{
+ padding: 20px; background-color: gray;
+}
